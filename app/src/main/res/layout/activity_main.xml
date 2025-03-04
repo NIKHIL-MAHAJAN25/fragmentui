@@ -57,19 +57,16 @@
         >
 
 
+        <Button
+            android:id="@+id/btnsign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardborder"
+            android:paddingHorizontal="130dp"
+            android:paddingVertical="10dp"
+            android:text="SIGN IN"
 
-
-            <Button
-                android:id="@+id/btnsign"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="SIGN IN"
-                android:paddingHorizontal="130dp"
-                android:paddingVertical="10dp"
-                android:background="@drawable/cardborder"
-
-                android:textColor="@color/white" />
-
+            android:textColor="@color/white" />
 
 
     </androidx.cardview.widget.CardView>
