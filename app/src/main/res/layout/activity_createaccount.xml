@@ -81,13 +81,14 @@
                 android:textColor="#8B0000"
                 android:textStyle="bold"/>
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/psswrd1below"
+                android:id="@+id/psswrd1below2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/psswrd1"
                 android:inputType="textPassword"
                 app:passwordToggleEnabled="true">
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/psswrd1below"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
@@ -99,7 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/confirmpsswrd"
-                android:layout_below="@+id/psswrd1below"
+                android:layout_below="@+id/psswrd1below2"
                 android:text="Confirm Password"
                 android:textColor="#8B0000"
                 android:textStyle="bold"/>
@@ -152,6 +153,7 @@
                     android:layout_height="wrap_content"
                     android:text="Already have an Account?"/>
                 <Button
+                    android:id="@+id/btn_bottom"
                     android:layout_alignEnd="@+id/dont1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

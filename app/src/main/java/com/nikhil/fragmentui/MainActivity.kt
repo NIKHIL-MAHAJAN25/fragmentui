@@ -10,9 +10,10 @@ import androidx.core.view.WindowInsetsCompat
 
 
 class MainActivity : AppCompatActivity() {
+    var button: Button?=null
+    var button2:Button?=null
     override fun onCreate(savedInstanceState: Bundle?) {
-        var button: Button?=null
-        var button2:Button?=null
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
@@ -28,11 +29,16 @@ class MainActivity : AppCompatActivity() {
             var intent=Intent(this,signinpage::class.java)
             startActivity(intent)
 
+
         }
+
         button2?.setOnClickListener()
         {
+
             var intent1=Intent(this,Createaccount::class.java)
             startActivity(intent1)
+
         }
+
     }
 }
